@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Playfair Display", serif;
+  color: #1f2226;
+}
+
+.bg_green {
+  background-color: #62ab00 !important;
+}
+
+.bg_title {
+  background-color: #1f2226 !important;
+}
+
+.text-title {
+  color: #1f2226;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #1f2226 !important;
+}
+
+
+.navbar-nav .active .nav-link {
+  color: #62ab00 !important;
+}
+
+.form-control {
+  border: 1px solid #1f2226;
+}
+
+.form-control::placeholder {
+  color: #1f2226;
+}
+
+.btn-search {
+  border: 1px solid #62ab00;
+  color: #62ab00;
+  background-color: transparent;
+}
+
+.btn-search:hover {
+  color: #fff;
+  background-color: #62ab00;
+}
+
+table td, .table th {
+  vertical-align: middle !important;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(136, 180, 78, 0.05);
+}
+
+
+.scaled-big:hover {
+  transition: all .3s ease-in;
+  transform: scale(1.2);
+}
+
+.footer_bottom {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2226;
+  color: #fff;
+}
